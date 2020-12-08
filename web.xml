@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.motivity.LoginController</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>./doctor_login</url-pattern>
+</servlet-mapping>
+</web-app>
