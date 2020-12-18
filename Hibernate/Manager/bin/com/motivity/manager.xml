@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.motivity.Manager" table="manager">
+<id name="id" column="mid"></id>
+<property name="name" column="mname"></property>
+<property name="salary" column="msalary"></property>
+</class>
+</hibernate-mapping>
+
